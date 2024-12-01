@@ -1,0 +1,49 @@
+/* Styling for the Table Container */
+.table-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling */
+  .table-container h2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Table Styling */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  /* Table Header (Th) Styling */
+  .th {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Table Data (Td) Styling */
+  .td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Button Styling for Delete */
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }  

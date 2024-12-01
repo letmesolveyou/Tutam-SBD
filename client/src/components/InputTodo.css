@@ -1,0 +1,66 @@
+/* Styling for the Form Container */
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling */
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Input Styling */
+  .input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #aaa;
+  }
+  
+  /* Checkbox Container Styling */
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Checkbox Label Styling */
+  .checkbox-label {
+    font-size: 16px;
+  }
+  
+  /* Button Styling */
+  .button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .button:hover {
+    background-color: #218838;
+  }  
